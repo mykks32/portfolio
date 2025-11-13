@@ -16,7 +16,7 @@ interface Project {
 
 const ProjectCard: FC<{ project: Project }> = ({ project }) => {
     return (
-        <div className="flex flex-col justify-between max-h-fit p-6 border border-white/15 rounded-2xl hover:scale-105 transition duration-500">
+        <div className="flex flex-col justify-between max-h-full p-6 border border-white/15 rounded-2xl hover:scale-105 transition duration-500">
             <div>
                 {/* Conditionally render the image if it exists */}
                 {project.image && (
