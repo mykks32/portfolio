@@ -6,15 +6,38 @@ import { motion } from "motion/react";
 export default function Experience() {
     const experiences = [
         {
-            company: "CloudQuish LLC & A5IT",
-            duration: "Dec 2024 – Mar 2025",
-            position: "Full Stack Developer",
+            company: "Futrix",
+            duration: "Nov 2026 – Present",
+            position: "Software Engineer",
+            location: "Remote (Contractor)",
+            points: [
+                "Engineer software features for the Aquabuildr and HOTNHEAVY! platforms as an independent contractor, covering the full software development lifecycle from requirements through deployment.",
+                "Partner with the Lead Project Manager and U.S.-based stakeholders across time zones, participating in sprint planning, standups, and retrospectives tracked in Jira.",
+                "Build and maintain backend services and RESTful APIs, enforcing coding standards and code review practices and upholding automated test coverage for production reliability.",
+                "Troubleshoot and resolve production issues, ensuring consistent, on-time delivery of sprint commitments and project milestones.",
+            ],
+        },
+        {
+            company: "Shrig Solutions Pvt. Ltd.",
+            duration: "Jan 2026 – Oct 2026",
+            position: "Mid-Level Backend Developer",
+            location: "Kathmandu, Nepal (Full-Time)",
+            points: [
+                "Developed backend services and RESTful APIs for the Aquabuildr and HOTNHEAVY! platforms as a Mid-Level Backend Developer, reporting to the Lead Engineer, CTO, and Project Manager.",
+                "Collaborated with cross-functional engineering teams to design, build, and maintain scalable, database-driven backend systems.",
+                "Contributed to code quality, technical documentation, and knowledge sharing within a full-time, in-house software development team.",
+            ],
+        },
+        {
+            company: "CloudQuish Pvt. Ltd.",
+            duration: "Dec 2024 – Nov 2025",
+            position: "Software Engineer",
             location: "Remote",
             points: [
-                "Implemented key components for both landing page and email verification service at CloudQuish using Next.js, Clerk authentication, ShadCN/ui components, Zustand state management, and Tailwind CSS.",
-                "Improved UI and resolved interface bugs at A5IT, enhancing user experience through navigation optimizations and creating a more intuitive platform.",
-                "Developed and integrated RESTful APIs at A5IT using TypeORM, Node.js, and efficient database queries for improved data management.",
-                "Collaborated with development team using GitHub for task management and version control.",
+                "Delivered end-to-end software development for CloudQuish's web platform, spanning front-end UI, backend RESTful APIs, and relational database integration.",
+                "Built and shipped the landing page and email verification service using Next.js, TypeScript, Clerk authentication, ShadCN/ui components, Zustand state management, and Tailwind CSS.",
+                "Partnered with a distributed, remote-first team using Git/GitHub for version control, code review, and collaborative software delivery.",
+                "Improved system functionality and user experience through iterative UI/UX enhancements and performance-focused engineering.",
             ],
         },
     ];
