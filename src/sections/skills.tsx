@@ -21,6 +21,7 @@ const skills = [
             { name: "Spring Boot", icon: "https://img.icons8.com/color/48/spring-logo.png" },            { name: "Next.js", icon: "https://img.icons8.com/fluency/50/nextjs.png" },
             { name: "React.js", icon: "https://img.icons8.com/color/48/react-native.png" },
             { name: "Django", icon: "https://img.icons8.com/external-tal-revivo-filled-tal-revivo/50/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-filled-tal-revivo.png" },
+            { name: "TypeORM", icon: "https://cdn.simpleicons.org/typeorm" },
         ],
     },
     {
@@ -35,6 +36,7 @@ const skills = [
             { name: "BullMQ", icon: BullMq.src },
             { name: "Socket.IO", icon: "https://static.cdnlogo.com/logos/s/14/socket-io.svg" },
             { name: "Postman", icon: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-postman-is-the-only-complete-api-development-environment-logo-shadow-tal-revivo.png" },
+            { name: "Jira", icon: "https://cdn.simpleicons.org/jira" },
         ],
     },
     {
@@ -46,6 +48,7 @@ const skills = [
             { name: "React Hook Form", icon: "https://img.icons8.com/color/48/react-native.png" },
             { name: "Zustand", icon: Zustand.src },
             { name: "Redux", icon: "https://img.icons8.com/color/48/redux.png" },
+            { name: "Clerk", icon: "https://cdn.simpleicons.org/clerk" },
         ],
     },
 ];
