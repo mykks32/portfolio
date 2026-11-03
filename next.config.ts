@@ -6,7 +6,6 @@ const nextConfig: NextConfig = {
     domains: [
       "img.icons8.com",
       "static.cdnlogo.com",
-      "cdn.simpleicons.org",
     ],
     dangerouslyAllowSVG: true,
     contentDispositionType: "attachment",
